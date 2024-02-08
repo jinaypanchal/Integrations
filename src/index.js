@@ -23,7 +23,7 @@ const port = 3000;
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send('Arithmetic Service - Hello World! I am deployed by Jinay on Render');
+    res.send('Arithmetic Service - Hello World! I am deployed by Jinay on Render, and this is my 2nd attempt');
 });
 
 app.get('/add/:n/:m', (req, res) => {
